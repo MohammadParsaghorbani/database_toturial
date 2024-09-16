@@ -11,14 +11,13 @@ cursor = connection.cursor()
 # )
 # """)
 
-cursor.execute("""
-create table if not exists users(
-    phone int primary key,
-    name text,
-    last_name text
-)
-""")
-
+# cursor.execute("""
+# create table if not exists users(
+#     phone int primary key,
+#     name text,
+#     last_name text
+# )
+# """)
 
 
 connection.commit()
